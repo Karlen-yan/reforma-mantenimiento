@@ -8,11 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors:{
+        primary:"#069eb6",
+        secondary: '#122c4f',
+        grey_light:"#d9d9d9"
+      }, 
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'imagen': "url('/images/headerBg.jpg')"
       },
+      fontFamily: {
+        'montserrat': ['Montserrat'],
+        'sans-serif': ['Arial'],
+        'lato': ['Lato'],
+        'garamond': ['Garamond']
+    }
     },
   },
   plugins: [],
